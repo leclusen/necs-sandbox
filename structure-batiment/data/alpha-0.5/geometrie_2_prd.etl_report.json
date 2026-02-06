@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-06T08:35:34.509699+00:00",
+    "output_database": "data/geometrie_2_prd.db",
+    "pipeline": "etl",
+    "software_version": "0.1.0"
+  },
+  "statistics": {
+    "elements_total": 5825,
+    "elements_by_type": {
+      "poteau": 1527,
+      "poutre": 1192,
+      "voile": 2669,
+      "dalle": 284,
+      "appui": 153
+    },
+    "vertices_total": 20994,
+    "matched_elements": 5824,
+    "unmatched_elements": 2,
+    "unmatched_details": [
+      {
+        "name": "Filaire_7415",
+        "source": "3dm_only"
+      },
+      {
+        "name": "Filaire_7416",
+        "source": "db_only"
+      }
+    ]
+  },
+  "coordinate_ranges": {
+    "x": {
+      "min": -72.175249,
+      "max": 46.80004489699999
+    },
+    "y": {
+      "min": -88.149963,
+      "max": 31.250036
+    },
+    "z": {
+      "min": -4.44,
+      "max": 37.21
+    }
+  },
+  "template_fingerprint": {
+    "object_count": 5825,
+    "element_names_hash": "4fd2058d332ac79fed9a56c2cdf2a4d2fe2cba4c0577c27de740d43413b2d9a1"
+  },
+  "validation": {
+    "passed": true,
+    "checks": [
+      "element_count",
+      "vertex_count",
+      "no_null_coordinates",
+      "fk_integrity",
+      "element_types"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+*.licence
+
+# Testing
+.coverage
+.pytest_cache/
+
+# Claude Code
+.claude/settings.local.json

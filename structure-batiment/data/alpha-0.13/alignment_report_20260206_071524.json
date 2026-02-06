@@ -1,0 +1,2109 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-06T15:15:27.783052+00:00",
+    "input_database": "data/geometrie_2_prd.db",
+    "output_database": "data/geometrie_2_prd_aligned_20260206_071524.db",
+    "execution_time_seconds": 3.17,
+    "software_version": "0.1.0",
+    "dry_run": false
+  },
+  "parameters": {
+    "alpha": 0.13,
+    "clustering_method": "dbscan",
+    "min_cluster_size": 3,
+    "rounding_precision": 0.01
+  },
+  "statistics": {
+    "total_vertices": 20994,
+    "aligned_vertices": 20994,
+    "isolated_vertices": 0,
+    "alignment_rate_percent": 100.0
+  },
+  "axis_statistics": {
+    "X": {
+      "mean": -10.771447740297056,
+      "median": -9.329956000000003,
+      "std": 36.68421172466241,
+      "min": -72.175249,
+      "max": 46.80004489699999,
+      "q1": -44.929956,
+      "q3": 28.800044,
+      "unique_count": 1439,
+      "total_count": 20994
+    },
+    "Y": {
+      "mean": -17.555609091833198,
+      "median": -14.845,
+      "std": 30.82554527379309,
+      "min": -88.149963,
+      "max": 31.250036,
+      "q1": -37.497545,
+      "q3": 6.499499,
+      "unique_count": 1590,
+      "total_count": 20994
+    },
+    "Z": {
+      "mean": 14.636046011430246,
+      "median": 13.32,
+      "std": 10.89377182316791,
+      "min": -4.44,
+      "max": 37.21,
+      "q1": 5.48,
+      "q3": 26.28,
+      "unique_count": 13,
+      "total_count": 20994
+    }
+  },
+  "threads_detected": {
+    "X": [
+      {
+        "fil_id": "X_001",
+        "reference": -72.03,
+        "delta": 0.03335357137884394,
+        "vertex_count": 389
+      },
+      {
+        "fil_id": "X_002",
+        "reference": -71.57,
+        "delta": 0.030147902912371582,
+        "vertex_count": 17
+      },
+      {
+        "fil_id": "X_003",
+        "reference": -71.27,
+        "delta": 0.0,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_004",
+        "reference": -70.78,
+        "delta": 0.06243979771780303,
+        "vertex_count": 25
+      },
+      {
+        "fil_id": "X_005",
+        "reference": -70.37,
+        "delta": 0.019042012354001308,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "X_006",
+        "reference": -69.48,
+        "delta": 0.043244424849851505,
+        "vertex_count": 30
+      },
+      {
+        "fil_id": "X_007",
+        "reference": -69.11,
+        "delta": 0.05436189449932501,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_008",
+        "reference": -68.08,
+        "delta": 0.06426875516675093,
+        "vertex_count": 22
+      },
+      {
+        "fil_id": "X_009",
+        "reference": -67.5,
+        "delta": 0.07311280052083728,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "X_010",
+        "reference": -66.81,
+        "delta": 0.03582922455911011,
+        "vertex_count": 34
+      },
+      {
+        "fil_id": "X_011",
+        "reference": -66.39,
+        "delta": 0.05200766766544921,
+        "vertex_count": 5
+      },
+      {
+        "fil_id": "X_012",
+        "reference": -65.72,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_013",
+        "reference": -65.25,
+        "delta": 0.05918792185320874,
+        "vertex_count": 16
+      },
+      {
+        "fil_id": "X_014",
+        "reference": -64.55,
+        "delta": 0.017667500000001723,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_015",
+        "reference": -64.12,
+        "delta": 0.019997500312537844,
+        "vertex_count": 88
+      },
+      {
+        "fil_id": "X_016",
+        "reference": -63.84,
+        "delta": 1.4210854715202004e-14,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "X_017",
+        "reference": -63.38,
+        "delta": 0.06667010355177315,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "X_018",
+        "reference": -62.69,
+        "delta": 0.04529142100025181,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_019",
+        "reference": -61.41,
+        "delta": 0.04221108406911249,
+        "vertex_count": 119
+      },
+      {
+        "fil_id": "X_020",
+        "reference": -60.71,
+        "delta": 0.0669984495925513,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "X_021",
+        "reference": -58.53,
+        "delta": 0.06563674390690422,
+        "vertex_count": 36
+      },
+      {
+        "fil_id": "X_022",
+        "reference": -57.75,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_023",
+        "reference": -56.7,
+        "delta": 0.04880121912588647,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "X_024",
+        "reference": -55.91,
+        "delta": 0.049710764828104846,
+        "vertex_count": 562
+      },
+      {
+        "fil_id": "X_025",
+        "reference": -54.13,
+        "delta": 0.07674439225466241,
+        "vertex_count": 25
+      },
+      {
+        "fil_id": "X_026",
+        "reference": -52.65,
+        "delta": 0.06579044527705862,
+        "vertex_count": 41
+      },
+      {
+        "fil_id": "X_027",
+        "reference": -52.06,
+        "delta": 0.04628496087976553,
+        "vertex_count": 147
+      },
+      {
+        "fil_id": "X_028",
+        "reference": -51.43,
+        "delta": 0.06579336050697267,
+        "vertex_count": 125
+      },
+      {
+        "fil_id": "X_029",
+        "reference": -50.61,
+        "delta": 0.026035000000000252,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_030",
+        "reference": -50.22,
+        "delta": 0.07586634629718378,
+        "vertex_count": 16
+      },
+      {
+        "fil_id": "X_031",
+        "reference": -49.94,
+        "delta": 0.06144331192338282,
+        "vertex_count": 68
+      },
+      {
+        "fil_id": "X_032",
+        "reference": -45.99,
+        "delta": 0.05466281037644326,
+        "vertex_count": 43
+      },
+      {
+        "fil_id": "X_033",
+        "reference": -40.86,
+        "delta": 0.07429071296503911,
+        "vertex_count": 70
+      },
+      {
+        "fil_id": "X_034",
+        "reference": -39.75,
+        "delta": 0.04995545959121847,
+        "vertex_count": 798
+      },
+      {
+        "fil_id": "X_035",
+        "reference": -37.72,
+        "delta": 0.065912396647701,
+        "vertex_count": 106
+      },
+      {
+        "fil_id": "X_036",
+        "reference": -37.09,
+        "delta": 0.05591062294757949,
+        "vertex_count": 90
+      },
+      {
+        "fil_id": "X_037",
+        "reference": -36.52,
+        "delta": 0.020699000000000467,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_038",
+        "reference": -36.21,
+        "delta": 0.021130182562348214,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "X_039",
+        "reference": -35.77,
+        "delta": 0.056192425183259134,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "X_040",
+        "reference": -35.11,
+        "delta": 0.06579513314236995,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "X_041",
+        "reference": -34.46,
+        "delta": 0.07329443496509035,
+        "vertex_count": 111
+      },
+      {
+        "fil_id": "X_042",
+        "reference": -33.94,
+        "delta": 0.07841312941942065,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "X_043",
+        "reference": -32.97,
+        "delta": 0.024210750252780723,
+        "vertex_count": 9
+      },
+      {
+        "fil_id": "X_044",
+        "reference": -31.74,
+        "delta": 0.07544913545762771,
+        "vertex_count": 230
+      },
+      {
+        "fil_id": "X_045",
+        "reference": -30.96,
+        "delta": 0.04764649791182676,
+        "vertex_count": 238
+      },
+      {
+        "fil_id": "X_046",
+        "reference": -30.18,
+        "delta": 0.07850312674505429,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "X_047",
+        "reference": -29.69,
+        "delta": 0.060970259296504604,
+        "vertex_count": 68
+      },
+      {
+        "fil_id": "X_048",
+        "reference": -29.01,
+        "delta": 0.04312815711129267,
+        "vertex_count": 216
+      },
+      {
+        "fil_id": "X_049",
+        "reference": -28.63,
+        "delta": 0.08001745623017206,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "X_050",
+        "reference": -28.21,
+        "delta": 0.06943344433700607,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_051",
+        "reference": -27.61,
+        "delta": 0.003720644562328708,
+        "vertex_count": 21
+      },
+      {
+        "fil_id": "X_052",
+        "reference": -26.72,
+        "delta": 0.0602897316065309,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_053",
+        "reference": -26.28,
+        "delta": 0.03971783792115385,
+        "vertex_count": 93
+      },
+      {
+        "fil_id": "X_054",
+        "reference": -25.79,
+        "delta": 0.05968178395521062,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "X_055",
+        "reference": -25.25,
+        "delta": 0.07429389356182012,
+        "vertex_count": 44
+      },
+      {
+        "fil_id": "X_056",
+        "reference": -23.77,
+        "delta": 0.038725219902507,
+        "vertex_count": 452
+      },
+      {
+        "fil_id": "X_057",
+        "reference": -22.95,
+        "delta": 0.03068070334192981,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_058",
+        "reference": -21.12,
+        "delta": 0.08354851458744605,
+        "vertex_count": 76
+      },
+      {
+        "fil_id": "X_059",
+        "reference": -17.6,
+        "delta": 3.552713678800501e-15,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "X_060",
+        "reference": -16.48,
+        "delta": 3.141642710180721e-06,
+        "vertex_count": 54
+      },
+      {
+        "fil_id": "X_061",
+        "reference": -12.66,
+        "delta": 0.006033500000000025,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_062",
+        "reference": -11.72,
+        "delta": 0.032725255261978614,
+        "vertex_count": 46
+      },
+      {
+        "fil_id": "X_063",
+        "reference": -10.83,
+        "delta": 0.029106538909783337,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "X_064",
+        "reference": -10.24,
+        "delta": 0.021286742540840023,
+        "vertex_count": 3
+      },
+      {
+        "fil_id": "X_065",
+        "reference": -9.34,
+        "delta": 0.03188498581985797,
+        "vertex_count": 756
+      },
+      {
+        "fil_id": "X_066",
+        "reference": -8.49,
+        "delta": 0.038627280196247074,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_067",
+        "reference": -8.19,
+        "delta": 0.020522405824056435,
+        "vertex_count": 21
+      },
+      {
+        "fil_id": "X_068",
+        "reference": -7.86,
+        "delta": 0.03594863009261279,
+        "vertex_count": 41
+      },
+      {
+        "fil_id": "X_069",
+        "reference": -7.5,
+        "delta": 0.08433590977964209,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "X_070",
+        "reference": -6.99,
+        "delta": 0.050096276312538095,
+        "vertex_count": 26
+      },
+      {
+        "fil_id": "X_071",
+        "reference": -6.56,
+        "delta": 0.007965185020725733,
+        "vertex_count": 245
+      },
+      {
+        "fil_id": "X_072",
+        "reference": -6.1,
+        "delta": 0.06297437913063468,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_073",
+        "reference": -5.58,
+        "delta": 0.03135294822108206,
+        "vertex_count": 13
+      },
+      {
+        "fil_id": "X_074",
+        "reference": -5.25,
+        "delta": 0.0643601286569001,
+        "vertex_count": 23
+      },
+      {
+        "fil_id": "X_075",
+        "reference": -4.62,
+        "delta": 0.07853754550781702,
+        "vertex_count": 36
+      },
+      {
+        "fil_id": "X_076",
+        "reference": -3.95,
+        "delta": 0.02653158346960094,
+        "vertex_count": 39
+      },
+      {
+        "fil_id": "X_077",
+        "reference": -3.67,
+        "delta": 0.041544249780796814,
+        "vertex_count": 15
+      },
+      {
+        "fil_id": "X_078",
+        "reference": -3.04,
+        "delta": 0.048521542342998956,
+        "vertex_count": 29
+      },
+      {
+        "fil_id": "X_079",
+        "reference": -2.41,
+        "delta": 0.08358092295828205,
+        "vertex_count": 41
+      },
+      {
+        "fil_id": "X_080",
+        "reference": -1.7,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_081",
+        "reference": -1.36,
+        "delta": 0.092640371031997,
+        "vertex_count": 86
+      },
+      {
+        "fil_id": "X_082",
+        "reference": -1.02,
+        "delta": 0.026244618703438714,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_083",
+        "reference": -0.34,
+        "delta": 0.04424067868692056,
+        "vertex_count": 32
+      },
+      {
+        "fil_id": "X_084",
+        "reference": 0.01,
+        "delta": 0.019989339044668156,
+        "vertex_count": 351
+      },
+      {
+        "fil_id": "X_085",
+        "reference": 0.3,
+        "delta": 0.04157397096415444,
+        "vertex_count": 55
+      },
+      {
+        "fil_id": "X_086",
+        "reference": 0.89,
+        "delta": 0.004679632677893522,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_087",
+        "reference": 1.21,
+        "delta": 0.04650677423773894,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_088",
+        "reference": 1.86,
+        "delta": 0.03596661390021727,
+        "vertex_count": 30
+      },
+      {
+        "fil_id": "X_089",
+        "reference": 2.46,
+        "delta": 0.04526257029986337,
+        "vertex_count": 44
+      },
+      {
+        "fil_id": "X_090",
+        "reference": 2.79,
+        "delta": 4.440892098500626e-16,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "X_091",
+        "reference": 3.28,
+        "delta": 0.0644384724064296,
+        "vertex_count": 26
+      },
+      {
+        "fil_id": "X_092",
+        "reference": 3.95,
+        "delta": 4.440892098500626e-16,
+        "vertex_count": 11
+      },
+      {
+        "fil_id": "X_093",
+        "reference": 4.43,
+        "delta": 0.02035231267708266,
+        "vertex_count": 328
+      },
+      {
+        "fil_id": "X_094",
+        "reference": 5.07,
+        "delta": 0.020424394381001208,
+        "vertex_count": 26
+      },
+      {
+        "fil_id": "X_095",
+        "reference": 5.86,
+        "delta": 0.03688214122480309,
+        "vertex_count": 85
+      },
+      {
+        "fil_id": "X_096",
+        "reference": 6.52,
+        "delta": 0.04744577434762893,
+        "vertex_count": 147
+      },
+      {
+        "fil_id": "X_097",
+        "reference": 6.89,
+        "delta": 0.024486153729245563,
+        "vertex_count": 5
+      },
+      {
+        "fil_id": "X_098",
+        "reference": 7.51,
+        "delta": 0.034007839612889904,
+        "vertex_count": 105
+      },
+      {
+        "fil_id": "X_099",
+        "reference": 8.4,
+        "delta": 0.04990029615996552,
+        "vertex_count": 354
+      },
+      {
+        "fil_id": "X_100",
+        "reference": 8.96,
+        "delta": 0.014987500000000153,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_101",
+        "reference": 10.01,
+        "delta": 0.0160176000000007,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "X_102",
+        "reference": 10.45,
+        "delta": 0.014526682958231337,
+        "vertex_count": 376
+      },
+      {
+        "fil_id": "X_103",
+        "reference": 11.16,
+        "delta": 0.0011587123121047035,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_104",
+        "reference": 11.98,
+        "delta": 0.0232784266411821,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "X_105",
+        "reference": 12.54,
+        "delta": 0.0610549306416158,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "X_106",
+        "reference": 12.94,
+        "delta": 0.058692574181066805,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "X_107",
+        "reference": 13.39,
+        "delta": 0.02234428194316225,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "X_108",
+        "reference": 13.75,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_109",
+        "reference": 14.17,
+        "delta": 0.022405499999999634,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_110",
+        "reference": 14.86,
+        "delta": 0.035497243078430905,
+        "vertex_count": 45
+      },
+      {
+        "fil_id": "X_111",
+        "reference": 15.48,
+        "delta": 0.04499999999999993,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "X_112",
+        "reference": 16.35,
+        "delta": 0.04548768372002424,
+        "vertex_count": 54
+      },
+      {
+        "fil_id": "X_113",
+        "reference": 17.06,
+        "delta": 0.0009993933159648926,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_114",
+        "reference": 17.52,
+        "delta": 0.017446281926905744,
+        "vertex_count": 26
+      },
+      {
+        "fil_id": "X_115",
+        "reference": 17.87,
+        "delta": 0.059510289703225513,
+        "vertex_count": 22
+      },
+      {
+        "fil_id": "X_116",
+        "reference": 19.4,
+        "delta": 0.0,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "X_117",
+        "reference": 19.93,
+        "delta": 0.05816674873983105,
+        "vertex_count": 34
+      },
+      {
+        "fil_id": "X_118",
+        "reference": 21.01,
+        "delta": 0.06784208322402661,
+        "vertex_count": 54
+      },
+      {
+        "fil_id": "X_119",
+        "reference": 21.98,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_120",
+        "reference": 22.49,
+        "delta": 0.028540936581334768,
+        "vertex_count": 370
+      },
+      {
+        "fil_id": "X_121",
+        "reference": 23.18,
+        "delta": 0.015904750003932107,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_122",
+        "reference": 23.94,
+        "delta": 0.06000150000000026,
+        "vertex_count": 30
+      },
+      {
+        "fil_id": "X_123",
+        "reference": 24.28,
+        "delta": 0.020937951923729596,
+        "vertex_count": 38
+      },
+      {
+        "fil_id": "X_124",
+        "reference": 25.33,
+        "delta": 0.023591439242985877,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "X_125",
+        "reference": 25.92,
+        "delta": 0.023585977666893812,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_126",
+        "reference": 26.44,
+        "delta": 0.04294821692994688,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_127",
+        "reference": 26.86,
+        "delta": 0.024079511139538427,
+        "vertex_count": 411
+      },
+      {
+        "fil_id": "X_128",
+        "reference": 27.24,
+        "delta": 0.06000018349999969,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "X_129",
+        "reference": 28.82,
+        "delta": 0.0446486055032899,
+        "vertex_count": 726
+      },
+      {
+        "fil_id": "X_130",
+        "reference": 30.09,
+        "delta": 0.08230054000123604,
+        "vertex_count": 203
+      },
+      {
+        "fil_id": "X_131",
+        "reference": 31.0,
+        "delta": 0.01902130888855458,
+        "vertex_count": 318
+      },
+      {
+        "fil_id": "X_132",
+        "reference": 31.48,
+        "delta": 0.03589568219159458,
+        "vertex_count": 88
+      },
+      {
+        "fil_id": "X_133",
+        "reference": 31.9,
+        "delta": 0.0075000000000008775,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "X_134",
+        "reference": 32.46,
+        "delta": 0.0,
+        "vertex_count": 9
+      },
+      {
+        "fil_id": "X_135",
+        "reference": 32.8,
+        "delta": 0.0024779999999999802,
+        "vertex_count": 16
+      },
+      {
+        "fil_id": "X_136",
+        "reference": 33.18,
+        "delta": 0.034406132558260805,
+        "vertex_count": 620
+      },
+      {
+        "fil_id": "X_137",
+        "reference": 34.2,
+        "delta": 0.09057136171074773,
+        "vertex_count": 49
+      },
+      {
+        "fil_id": "X_138",
+        "reference": 35.05,
+        "delta": 0.059872674813409854,
+        "vertex_count": 67
+      },
+      {
+        "fil_id": "X_139",
+        "reference": 35.78,
+        "delta": 0.022987053187609196,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_140",
+        "reference": 36.42,
+        "delta": 0.07003948745833077,
+        "vertex_count": 17
+      },
+      {
+        "fil_id": "X_141",
+        "reference": 37.49,
+        "delta": 0.03672575076696686,
+        "vertex_count": 759
+      },
+      {
+        "fil_id": "X_142",
+        "reference": 37.99,
+        "delta": 0.0,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_143",
+        "reference": 39.05,
+        "delta": 0.050509868486817856,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "X_144",
+        "reference": 39.82,
+        "delta": 0.055046244819300386,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "X_145",
+        "reference": 40.18,
+        "delta": 0.03773310346219776,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "X_146",
+        "reference": 40.78,
+        "delta": 0.08480231390461294,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "X_147",
+        "reference": 41.31,
+        "delta": 0.09579139755644998,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "X_148",
+        "reference": 41.89,
+        "delta": 0.05352125346078835,
+        "vertex_count": 17
+      },
+      {
+        "fil_id": "X_149",
+        "reference": 42.51,
+        "delta": 0.016201631531090832,
+        "vertex_count": 167
+      },
+      {
+        "fil_id": "X_150",
+        "reference": 42.8,
+        "delta": 0.005615736227201469,
+        "vertex_count": 113
+      },
+      {
+        "fil_id": "X_151",
+        "reference": 43.16,
+        "delta": 0.012394988591663087,
+        "vertex_count": 56
+      },
+      {
+        "fil_id": "X_152",
+        "reference": 43.51,
+        "delta": 0.09165514977638099,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "X_153",
+        "reference": 43.99,
+        "delta": 0.028867244215720313,
+        "vertex_count": 152
+      },
+      {
+        "fil_id": "X_154",
+        "reference": 44.38,
+        "delta": 0.041014859791149,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "X_155",
+        "reference": 44.66,
+        "delta": 0.033054399863643294,
+        "vertex_count": 75
+      },
+      {
+        "fil_id": "X_156",
+        "reference": 44.95,
+        "delta": 0.005628989271816445,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "X_157",
+        "reference": 45.46,
+        "delta": 0.030950897597792404,
+        "vertex_count": 228
+      },
+      {
+        "fil_id": "X_158",
+        "reference": 46.78,
+        "delta": 0.032737416900831075,
+        "vertex_count": 728
+      }
+    ],
+    "Y": [
+      {
+        "fil_id": "Y_001",
+        "reference": -87.98,
+        "delta": 0.032257719437560416,
+        "vertex_count": 194
+      },
+      {
+        "fil_id": "Y_002",
+        "reference": -87.55,
+        "delta": 0.04420161690235065,
+        "vertex_count": 30
+      },
+      {
+        "fil_id": "Y_003",
+        "reference": -86.96,
+        "delta": 0.0,
+        "vertex_count": 5
+      },
+      {
+        "fil_id": "Y_004",
+        "reference": -86.4,
+        "delta": 0.049317864408900125,
+        "vertex_count": 17
+      },
+      {
+        "fil_id": "Y_005",
+        "reference": -85.51,
+        "delta": 0.012288130443741123,
+        "vertex_count": 9
+      },
+      {
+        "fil_id": "Y_006",
+        "reference": -85.01,
+        "delta": 0.034028788193669134,
+        "vertex_count": 45
+      },
+      {
+        "fil_id": "Y_007",
+        "reference": -84.11,
+        "delta": 0.05646969568552851,
+        "vertex_count": 7
+      },
+      {
+        "fil_id": "Y_008",
+        "reference": -83.24,
+        "delta": 0.00999970000600179,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "Y_009",
+        "reference": -82.3,
+        "delta": 0.05614282269279913,
+        "vertex_count": 337
+      },
+      {
+        "fil_id": "Y_010",
+        "reference": -80.92,
+        "delta": 0.027063293868263706,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_011",
+        "reference": -80.58,
+        "delta": 0.08706310119511092,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "Y_012",
+        "reference": -80.27,
+        "delta": 0.01513949999999653,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_013",
+        "reference": -79.59,
+        "delta": 0.04731438673405199,
+        "vertex_count": 361
+      },
+      {
+        "fil_id": "Y_014",
+        "reference": -78.97,
+        "delta": 0.042347499999998206,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_015",
+        "reference": -77.88,
+        "delta": 0.04246100600550785,
+        "vertex_count": 16
+      },
+      {
+        "fil_id": "Y_016",
+        "reference": -76.89,
+        "delta": 0.0332572643528859,
+        "vertex_count": 156
+      },
+      {
+        "fil_id": "Y_017",
+        "reference": -75.84,
+        "delta": 0.08135308890877982,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_018",
+        "reference": -74.78,
+        "delta": 0.054999999999999716,
+        "vertex_count": 9
+      },
+      {
+        "fil_id": "Y_019",
+        "reference": -74.19,
+        "delta": 0.01609167123870718,
+        "vertex_count": 16
+      },
+      {
+        "fil_id": "Y_020",
+        "reference": -72.11,
+        "delta": 0.019614548943321673,
+        "vertex_count": 11
+      },
+      {
+        "fil_id": "Y_021",
+        "reference": -71.76,
+        "delta": 0.012326203517588617,
+        "vertex_count": 11
+      },
+      {
+        "fil_id": "Y_022",
+        "reference": -71.4,
+        "delta": 0.06308186940532616,
+        "vertex_count": 296
+      },
+      {
+        "fil_id": "Y_023",
+        "reference": -70.57,
+        "delta": 0.026232661502375423,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "Y_024",
+        "reference": -70.3,
+        "delta": 9.1629244067264e-06,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "Y_025",
+        "reference": -69.41,
+        "delta": 0.02991570278011905,
+        "vertex_count": 26
+      },
+      {
+        "fil_id": "Y_026",
+        "reference": -68.8,
+        "delta": 0.009065024476833598,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "Y_027",
+        "reference": -68.2,
+        "delta": 8.96549860464204e-06,
+        "vertex_count": 22
+      },
+      {
+        "fil_id": "Y_028",
+        "reference": -66.68,
+        "delta": 0.007837942858301682,
+        "vertex_count": 28
+      },
+      {
+        "fil_id": "Y_029",
+        "reference": -66.1,
+        "delta": 0.010656494142937793,
+        "vertex_count": 42
+      },
+      {
+        "fil_id": "Y_030",
+        "reference": -65.5,
+        "delta": 0.004802455765541041,
+        "vertex_count": 23
+      },
+      {
+        "fil_id": "Y_031",
+        "reference": -65.0,
+        "delta": 0.057337771147473626,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "Y_032",
+        "reference": -64.01,
+        "delta": 0.020729635293696404,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "Y_033",
+        "reference": -63.4,
+        "delta": 0.00010981609425598073,
+        "vertex_count": 40
+      },
+      {
+        "fil_id": "Y_034",
+        "reference": -62.84,
+        "delta": 0.011607504178032541,
+        "vertex_count": 28
+      },
+      {
+        "fil_id": "Y_035",
+        "reference": -62.2,
+        "delta": 0.0,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_036",
+        "reference": -61.38,
+        "delta": 0.007478308320291104,
+        "vertex_count": 34
+      },
+      {
+        "fil_id": "Y_037",
+        "reference": -60.7,
+        "delta": 0.00010810104587888176,
+        "vertex_count": 40
+      },
+      {
+        "fil_id": "Y_038",
+        "reference": -60.13,
+        "delta": 0.007500000000000284,
+        "vertex_count": 26
+      },
+      {
+        "fil_id": "Y_039",
+        "reference": -59.44,
+        "delta": 0.07575120393735851,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "Y_040",
+        "reference": -58.6,
+        "delta": 0.013887843079819434,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "Y_041",
+        "reference": -58.0,
+        "delta": 8.980691471828308e-05,
+        "vertex_count": 34
+      },
+      {
+        "fil_id": "Y_042",
+        "reference": -57.7,
+        "delta": 0.02676315522041474,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "Y_043",
+        "reference": -57.39,
+        "delta": 0.024648774595096002,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "Y_044",
+        "reference": -56.2,
+        "delta": 8.786922099947828e-06,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "Y_045",
+        "reference": -55.43,
+        "delta": 0.05532297186651876,
+        "vertex_count": 263
+      },
+      {
+        "fil_id": "Y_046",
+        "reference": -54.73,
+        "delta": 0.018070609812054952,
+        "vertex_count": 7
+      },
+      {
+        "fil_id": "Y_047",
+        "reference": -52.79,
+        "delta": 0.027323424997792712,
+        "vertex_count": 21
+      },
+      {
+        "fil_id": "Y_048",
+        "reference": -52.26,
+        "delta": 0.049280581118216836,
+        "vertex_count": 238
+      },
+      {
+        "fil_id": "Y_049",
+        "reference": -51.82,
+        "delta": 0.033500923532875454,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "Y_050",
+        "reference": -51.44,
+        "delta": 0.02946771653330918,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "Y_051",
+        "reference": -50.89,
+        "delta": 0.0,
+        "vertex_count": 6
+      },
+      {
+        "fil_id": "Y_052",
+        "reference": -50.26,
+        "delta": 0.042500000000000426,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_053",
+        "reference": -49.6,
+        "delta": 0.018414476610356473,
+        "vertex_count": 285
+      },
+      {
+        "fil_id": "Y_054",
+        "reference": -48.45,
+        "delta": 0.07943701874431319,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_055",
+        "reference": -47.21,
+        "delta": 0.01252300965998192,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "Y_056",
+        "reference": -46.86,
+        "delta": 0.04929534032520581,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "Y_057",
+        "reference": -46.21,
+        "delta": 0.02174347302203527,
+        "vertex_count": 40
+      },
+      {
+        "fil_id": "Y_058",
+        "reference": -45.85,
+        "delta": 0.02322917477702156,
+        "vertex_count": 282
+      },
+      {
+        "fil_id": "Y_059",
+        "reference": -45.47,
+        "delta": 0.059155586162024286,
+        "vertex_count": 9
+      },
+      {
+        "fil_id": "Y_060",
+        "reference": -45.12,
+        "delta": 0.03197939483671455,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "Y_061",
+        "reference": -44.25,
+        "delta": 0.036337099165969174,
+        "vertex_count": 321
+      },
+      {
+        "fil_id": "Y_062",
+        "reference": -43.37,
+        "delta": 0.027904015176514974,
+        "vertex_count": 46
+      },
+      {
+        "fil_id": "Y_063",
+        "reference": -43.07,
+        "delta": 9.403573278080583e-05,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_064",
+        "reference": -42.45,
+        "delta": 0.04370848866000055,
+        "vertex_count": 40
+      },
+      {
+        "fil_id": "Y_065",
+        "reference": -41.87,
+        "delta": 0.023360196829614596,
+        "vertex_count": 135
+      },
+      {
+        "fil_id": "Y_066",
+        "reference": -41.36,
+        "delta": 0.03416361471262433,
+        "vertex_count": 19
+      },
+      {
+        "fil_id": "Y_067",
+        "reference": -40.92,
+        "delta": 0.029488180737018446,
+        "vertex_count": 98
+      },
+      {
+        "fil_id": "Y_068",
+        "reference": -40.63,
+        "delta": 0.0,
+        "vertex_count": 3
+      },
+      {
+        "fil_id": "Y_069",
+        "reference": -40.17,
+        "delta": 0.00018873000197684703,
+        "vertex_count": 16
+      },
+      {
+        "fil_id": "Y_070",
+        "reference": -39.66,
+        "delta": 0.01715423683987061,
+        "vertex_count": 44
+      },
+      {
+        "fil_id": "Y_071",
+        "reference": -39.22,
+        "delta": 0.01388862071548835,
+        "vertex_count": 126
+      },
+      {
+        "fil_id": "Y_072",
+        "reference": -38.25,
+        "delta": 0.051363891648052336,
+        "vertex_count": 77
+      },
+      {
+        "fil_id": "Y_073",
+        "reference": -37.5,
+        "delta": 0.018395171926899226,
+        "vertex_count": 391
+      },
+      {
+        "fil_id": "Y_074",
+        "reference": -36.74,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_075",
+        "reference": -36.0,
+        "delta": 2.0544720658572143e-05,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_076",
+        "reference": -35.23,
+        "delta": 0.05101620982194732,
+        "vertex_count": 98
+      },
+      {
+        "fil_id": "Y_077",
+        "reference": -34.05,
+        "delta": 0.0,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_078",
+        "reference": -33.67,
+        "delta": 0.04706907446744956,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "Y_079",
+        "reference": -32.94,
+        "delta": 0.04588007242562703,
+        "vertex_count": 15
+      },
+      {
+        "fil_id": "Y_080",
+        "reference": -32.45,
+        "delta": 0.0,
+        "vertex_count": 11
+      },
+      {
+        "fil_id": "Y_081",
+        "reference": -31.79,
+        "delta": 0.046366411521378666,
+        "vertex_count": 349
+      },
+      {
+        "fil_id": "Y_082",
+        "reference": -30.62,
+        "delta": 0.06940231623656422,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "Y_083",
+        "reference": -29.99,
+        "delta": 0.019694973257624586,
+        "vertex_count": 448
+      },
+      {
+        "fil_id": "Y_084",
+        "reference": -28.99,
+        "delta": 0.07058095597673339,
+        "vertex_count": 58
+      },
+      {
+        "fil_id": "Y_085",
+        "reference": -27.98,
+        "delta": 0.03168288920902711,
+        "vertex_count": 216
+      },
+      {
+        "fil_id": "Y_086",
+        "reference": -27.38,
+        "delta": 0.08657748586794199,
+        "vertex_count": 65
+      },
+      {
+        "fil_id": "Y_087",
+        "reference": -26.3,
+        "delta": 0.05814246837012382,
+        "vertex_count": 352
+      },
+      {
+        "fil_id": "Y_088",
+        "reference": -25.84,
+        "delta": 0.053275332702404025,
+        "vertex_count": 28
+      },
+      {
+        "fil_id": "Y_089",
+        "reference": -25.01,
+        "delta": 0.07017796211556494,
+        "vertex_count": 50
+      },
+      {
+        "fil_id": "Y_090",
+        "reference": -24.41,
+        "delta": 0.062189588132688295,
+        "vertex_count": 46
+      },
+      {
+        "fil_id": "Y_091",
+        "reference": -23.31,
+        "delta": 0.06491059601976046,
+        "vertex_count": 52
+      },
+      {
+        "fil_id": "Y_092",
+        "reference": -22.21,
+        "delta": 0.05323789234549552,
+        "vertex_count": 38
+      },
+      {
+        "fil_id": "Y_093",
+        "reference": -21.62,
+        "delta": 0.0647335964657285,
+        "vertex_count": 21
+      },
+      {
+        "fil_id": "Y_094",
+        "reference": -20.96,
+        "delta": 0.0660567783109346,
+        "vertex_count": 168
+      },
+      {
+        "fil_id": "Y_095",
+        "reference": -19.9,
+        "delta": 0.07103966493533266,
+        "vertex_count": 62
+      },
+      {
+        "fil_id": "Y_096",
+        "reference": -19.0,
+        "delta": 0.07577319397871889,
+        "vertex_count": 31
+      },
+      {
+        "fil_id": "Y_097",
+        "reference": -18.13,
+        "delta": 0.02568191407834822,
+        "vertex_count": 187
+      },
+      {
+        "fil_id": "Y_098",
+        "reference": -17.58,
+        "delta": 0.08755346633322098,
+        "vertex_count": 32
+      },
+      {
+        "fil_id": "Y_099",
+        "reference": -17.02,
+        "delta": 0.03885873455300869,
+        "vertex_count": 14
+      },
+      {
+        "fil_id": "Y_100",
+        "reference": -16.26,
+        "delta": 0.051045444076822113,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "Y_101",
+        "reference": -15.09,
+        "delta": 0.07739929992948359,
+        "vertex_count": 465
+      },
+      {
+        "fil_id": "Y_102",
+        "reference": -14.19,
+        "delta": 0.04974866228099579,
+        "vertex_count": 23
+      },
+      {
+        "fil_id": "Y_103",
+        "reference": -13.52,
+        "delta": 0.027786619250097178,
+        "vertex_count": 16
+      },
+      {
+        "fil_id": "Y_104",
+        "reference": -12.4,
+        "delta": 0.05964500654540641,
+        "vertex_count": 166
+      },
+      {
+        "fil_id": "Y_105",
+        "reference": -11.51,
+        "delta": 0.023153760291830923,
+        "vertex_count": 110
+      },
+      {
+        "fil_id": "Y_106",
+        "reference": -10.89,
+        "delta": 0.034203610409652814,
+        "vertex_count": 155
+      },
+      {
+        "fil_id": "Y_107",
+        "reference": -9.68,
+        "delta": 0.05368094089516212,
+        "vertex_count": 136
+      },
+      {
+        "fil_id": "Y_108",
+        "reference": -7.71,
+        "delta": 0.05595100226635238,
+        "vertex_count": 32
+      },
+      {
+        "fil_id": "Y_109",
+        "reference": -6.94,
+        "delta": 0.06435523574032422,
+        "vertex_count": 48
+      },
+      {
+        "fil_id": "Y_110",
+        "reference": -6.36,
+        "delta": 0.08305753047419746,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "Y_111",
+        "reference": -6.0,
+        "delta": 0.009442056697248208,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "Y_112",
+        "reference": -5.49,
+        "delta": 0.04455622369626002,
+        "vertex_count": 199
+      },
+      {
+        "fil_id": "Y_113",
+        "reference": -4.94,
+        "delta": 0.04993259678279166,
+        "vertex_count": 28
+      },
+      {
+        "fil_id": "Y_114",
+        "reference": -4.35,
+        "delta": 0.0645352649877467,
+        "vertex_count": 80
+      },
+      {
+        "fil_id": "Y_115",
+        "reference": -3.95,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_116",
+        "reference": -3.69,
+        "delta": 0.025869635692486587,
+        "vertex_count": 192
+      },
+      {
+        "fil_id": "Y_117",
+        "reference": -2.93,
+        "delta": 0.050297196159423546,
+        "vertex_count": 92
+      },
+      {
+        "fil_id": "Y_118",
+        "reference": -2.03,
+        "delta": 0.05123833930376873,
+        "vertex_count": 30
+      },
+      {
+        "fil_id": "Y_119",
+        "reference": -1.04,
+        "delta": 0.0391055940924195,
+        "vertex_count": 324
+      },
+      {
+        "fil_id": "Y_120",
+        "reference": 0.27,
+        "delta": 0.07494896787010209,
+        "vertex_count": 80
+      },
+      {
+        "fil_id": "Y_121",
+        "reference": 2.35,
+        "delta": 0.06365920792744617,
+        "vertex_count": 22
+      },
+      {
+        "fil_id": "Y_122",
+        "reference": 3.29,
+        "delta": 0.036006834987671696,
+        "vertex_count": 23
+      },
+      {
+        "fil_id": "Y_123",
+        "reference": 4.07,
+        "delta": 0.06591188150065463,
+        "vertex_count": 55
+      },
+      {
+        "fil_id": "Y_124",
+        "reference": 5.37,
+        "delta": 0.0747455697711633,
+        "vertex_count": 37
+      },
+      {
+        "fil_id": "Y_125",
+        "reference": 6.68,
+        "delta": 0.04482814261616883,
+        "vertex_count": 70
+      },
+      {
+        "fil_id": "Y_126",
+        "reference": 7.51,
+        "delta": 0.05399496104909857,
+        "vertex_count": 704
+      },
+      {
+        "fil_id": "Y_127",
+        "reference": 8.76,
+        "delta": 0.08522364327050828,
+        "vertex_count": 49
+      },
+      {
+        "fil_id": "Y_128",
+        "reference": 9.36,
+        "delta": 0.049456614050835235,
+        "vertex_count": 64
+      },
+      {
+        "fil_id": "Y_129",
+        "reference": 10.03,
+        "delta": 0.04586518731064526,
+        "vertex_count": 35
+      },
+      {
+        "fil_id": "Y_130",
+        "reference": 10.71,
+        "delta": 0.03722300195247939,
+        "vertex_count": 89
+      },
+      {
+        "fil_id": "Y_131",
+        "reference": 11.26,
+        "delta": 0.09322805285020162,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "Y_132",
+        "reference": 11.99,
+        "delta": 0.036257838468113944,
+        "vertex_count": 257
+      },
+      {
+        "fil_id": "Y_133",
+        "reference": 12.5,
+        "delta": 0.07577737063186567,
+        "vertex_count": 13
+      },
+      {
+        "fil_id": "Y_134",
+        "reference": 13.45,
+        "delta": 0.06549019188180946,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "Y_135",
+        "reference": 13.91,
+        "delta": 0.033874231691164484,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "Y_136",
+        "reference": 15.0,
+        "delta": 0.010614699537730502,
+        "vertex_count": 287
+      },
+      {
+        "fil_id": "Y_137",
+        "reference": 15.87,
+        "delta": 0.04811816281683187,
+        "vertex_count": 24
+      },
+      {
+        "fil_id": "Y_138",
+        "reference": 16.26,
+        "delta": 0.039320690710371684,
+        "vertex_count": 20
+      },
+      {
+        "fil_id": "Y_139",
+        "reference": 16.76,
+        "delta": 0.053220444747587865,
+        "vertex_count": 36
+      },
+      {
+        "fil_id": "Y_140",
+        "reference": 17.41,
+        "delta": 0.06523575881870158,
+        "vertex_count": 21
+      },
+      {
+        "fil_id": "Y_141",
+        "reference": 17.94,
+        "delta": 0.06784643884545462,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "Y_142",
+        "reference": 18.6,
+        "delta": 0.0788461414079305,
+        "vertex_count": 54
+      },
+      {
+        "fil_id": "Y_143",
+        "reference": 19.26,
+        "delta": 0.026017062075030382,
+        "vertex_count": 48
+      },
+      {
+        "fil_id": "Y_144",
+        "reference": 20.43,
+        "delta": 0.05266845350340151,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "Y_145",
+        "reference": 21.1,
+        "delta": 0.05041328277561969,
+        "vertex_count": 67
+      },
+      {
+        "fil_id": "Y_146",
+        "reference": 21.84,
+        "delta": 0.05205805211889416,
+        "vertex_count": 64
+      },
+      {
+        "fil_id": "Y_147",
+        "reference": 22.52,
+        "delta": 0.053123618589339824,
+        "vertex_count": 752
+      },
+      {
+        "fil_id": "Y_148",
+        "reference": 23.04,
+        "delta": 4.330127023373375e-07,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "Y_149",
+        "reference": 23.44,
+        "delta": 0.0,
+        "vertex_count": 8
+      },
+      {
+        "fil_id": "Y_150",
+        "reference": 23.73,
+        "delta": 0.02497349999999976,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_151",
+        "reference": 24.0,
+        "delta": 0.0017816306398686507,
+        "vertex_count": 18
+      },
+      {
+        "fil_id": "Y_152",
+        "reference": 24.69,
+        "delta": 0.035014955344215754,
+        "vertex_count": 100
+      },
+      {
+        "fil_id": "Y_153",
+        "reference": 25.08,
+        "delta": 0.05765758580094073,
+        "vertex_count": 28
+      },
+      {
+        "fil_id": "Y_154",
+        "reference": 25.72,
+        "delta": 0.06391879117691392,
+        "vertex_count": 85
+      },
+      {
+        "fil_id": "Y_155",
+        "reference": 26.31,
+        "delta": 0.05435001535678602,
+        "vertex_count": 15
+      },
+      {
+        "fil_id": "Y_156",
+        "reference": 26.95,
+        "delta": 0.030327223166061065,
+        "vertex_count": 59
+      },
+      {
+        "fil_id": "Y_157",
+        "reference": 27.45,
+        "delta": 0.042517610172783125,
+        "vertex_count": 10
+      },
+      {
+        "fil_id": "Y_158",
+        "reference": 27.74,
+        "delta": 0.02601415038279878,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "Y_159",
+        "reference": 28.0,
+        "delta": 0.03125,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_160",
+        "reference": 28.29,
+        "delta": 0.028986460808091617,
+        "vertex_count": 12
+      },
+      {
+        "fil_id": "Y_161",
+        "reference": 28.55,
+        "delta": 0.0,
+        "vertex_count": 4
+      },
+      {
+        "fil_id": "Y_162",
+        "reference": 29.22,
+        "delta": 0.035432044756929196,
+        "vertex_count": 46
+      },
+      {
+        "fil_id": "Y_163",
+        "reference": 29.84,
+        "delta": 0.0,
+        "vertex_count": 9
+      },
+      {
+        "fil_id": "Y_164",
+        "reference": 30.87,
+        "delta": 0.03255283820276038,
+        "vertex_count": 678
+      },
+      {
+        "fil_id": "Y_165",
+        "reference": 31.24,
+        "delta": 0.019597740034686378,
+        "vertex_count": 21
+      }
+    ],
+    "Z": [
+      {
+        "fil_id": "Z_001",
+        "reference": -4.44,
+        "delta": 5.0445144439154247e-17,
+        "vertex_count": 620
+      },
+      {
+        "fil_id": "Z_002",
+        "reference": -1.56,
+        "delta": 2.4878105335955766e-16,
+        "vertex_count": 893
+      },
+      {
+        "fil_id": "Z_003",
+        "reference": 2.12,
+        "delta": 4.659452048940659e-16,
+        "vertex_count": 2697
+      },
+      {
+        "fil_id": "Z_004",
+        "reference": 5.48,
+        "delta": 8.928778092211074e-16,
+        "vertex_count": 2262
+      },
+      {
+        "fil_id": "Z_005",
+        "reference": 8.2,
+        "delta": 1.7886403976444922e-15,
+        "vertex_count": 2522
+      },
+      {
+        "fil_id": "Z_006",
+        "reference": 13.32,
+        "delta": 3.563794081724987e-15,
+        "vertex_count": 2441
+      },
+      {
+        "fil_id": "Z_007",
+        "reference": 17.96,
+        "delta": 2.775505437926767e-16,
+        "vertex_count": 2130
+      },
+      {
+        "fil_id": "Z_008",
+        "reference": 22.12,
+        "delta": 3.882805161729889e-16,
+        "vertex_count": 2093
+      },
+      {
+        "fil_id": "Z_009",
+        "reference": 26.28,
+        "delta": 3.56231995233911e-15,
+        "vertex_count": 2216
+      },
+      {
+        "fil_id": "Z_010",
+        "reference": 29.64,
+        "delta": 1.0651371813085172e-14,
+        "vertex_count": 1750
+      },
+      {
+        "fil_id": "Z_011",
+        "reference": 32.36,
+        "delta": 7.22636629172892e-15,
+        "vertex_count": 1136
+      },
+      {
+        "fil_id": "Z_012",
+        "reference": 37.21,
+        "delta": 0.0,
+        "vertex_count": 233
+      }
+    ]
+  },
+  "displacement_statistics": {
+    "mean_meters": 0.035104,
+    "median_meters": 0.022863,
+    "max_meters": 0.17932,
+    "std_meters": 0.035207,
+    "note": "3D Euclidean displacement (for reporting). Per-axis constraint enforced separately."
+  },
+  "isolated_vertices": [],
+  "isolated_vertices_total": 0,
+  "validation": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "max_per_axis_displacement",
+        "status": "PASS",
+        "detail": "Max per-axis displacement 0.130000m <= alpha 0.13m"
+      },
+      {
+        "name": "no_null_coordinates",
+        "status": "PASS",
+        "detail": "0 NULL coordinates"
+      },
+      {
+        "name": "vertex_count_preserved",
+        "status": "PASS",
+        "detail": "Count preserved: 20994"
+      },
+      {
+        "name": "alignment_rate",
+        "status": "PASS",
+        "detail": "Alignment rate 100.0%"
+      }
+    ]
+  }
+}
