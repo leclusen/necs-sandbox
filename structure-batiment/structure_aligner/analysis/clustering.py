@@ -1,3 +1,7 @@
+# DEPRECATED: V1 module. Use structure_aligner.analysis.axis_selector (V2) instead.
+# Retained for backward compatibility with the 'align' CLI command.
+# See pipeline-v2 for the recommended entry point.
+
 import logging
 import numpy as np
 from sklearn.cluster import DBSCAN

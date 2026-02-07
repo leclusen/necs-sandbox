@@ -8,7 +8,11 @@ from structure_aligner.utils.logger import setup_logging
 
 @click.group()
 def cli():
-    """Structure Aligner - Geometric alignment for building structures."""
+    """Structure Aligner - Geometric alignment for building structures.
+
+    Recommended entry point: pipeline-v2 (V2 pipeline with axis-line discovery
+    and per-element snap alignment). The older 'align' command uses V1 logic.
+    """
     pass
 
 
@@ -289,6 +293,70 @@ def pipeline(input_3dm, input_db, output, alpha, min_cluster_size, report, dry_r
         ctx = click.Context(export_3dm)
         ctx.invoke(export_3dm, input_db=str(aligned_db), template_3dm=input_3dm,
                    output=None, report=None, log_level=log_level)
+
+
+@cli.command("pipeline-v2")
+@click.option("--input-3dm", required=True, type=click.Path(exists=True),
+              help="Path to input .3dm Rhino file")
+@click.option("--input-db", required=True, type=click.Path(exists=True),
+              help="Path to structural database (.db)")
+@click.option("--output", required=True, type=click.Path(),
+              help="Output directory for results")
+@click.option("--reference-3dm", type=click.Path(exists=True), default=None,
+              help="Optional reference .3dm for comparison")
+@click.option("--max-snap-distance", type=float, default=0.75,
+              help="Max snap distance in meters (default: 0.75)")
+@click.option("--outlier-snap-distance", type=float, default=4.0,
+              help="Outlier snap distance in meters (default: 4.0)")
+@click.option("--min-floors", type=int, default=3,
+              help="Min floor levels for axis line candidacy (default: 3)")
+@click.option("--log-level", default="INFO",
+              type=click.Choice(["DEBUG", "INFO", "WARNING", "ERROR"]))
+def pipeline_v2(input_3dm, input_db, output, reference_3dm,
+                max_snap_distance, outlier_snap_distance, min_floors, log_level):
+    """V2 Pipeline: axis-line discovery + per-element snap + object-level transforms."""
+    setup_logging(log_level)
+    logger = logging.getLogger(__name__)
+
+    from structure_aligner.config import PipelineConfig
+    from structure_aligner.pipeline_v2 import run_pipeline_v2
+
+    config = PipelineConfig(
+        max_snap_distance=max_snap_distance,
+        outlier_snap_distance=outlier_snap_distance,
+        min_floors=min_floors,
+    )
+
+    input_3dm_path = Path(input_3dm)
+    input_db_path = Path(input_db)
+    output_dir = Path(output)
+    ref_path = Path(reference_3dm) if reference_3dm else None
+
+    logger.info("=== PIPELINE V2 ===")
+    logger.info("  Input 3DM: %s", input_3dm_path)
+    logger.info("  Input DB:  %s", input_db_path)
+    logger.info("  Output:    %s", output_dir)
+
+    report = run_pipeline_v2(
+        input_3dm_path, input_db_path, output_dir,
+        config=config, reference_3dm=ref_path,
+    )
+
+    if report.errors:
+        for err in report.errors:
+            logger.error("  ERROR: %s", err)
+    else:
+        logger.info("=== PIPELINE V2 COMPLETE ===")
+        logger.info("  Alignment: %d/%d (%.1f%%)",
+                     report.aligned_vertices, report.total_vertices,
+                     report.alignment_rate_pct)
+        logger.info("  Objects removed: %d dalles, %d supports, %d voiles",
+                     report.dalles_removed, report.supports_removed,
+                     report.voiles_removed)
+        logger.info("  Objects added: %d dalles, %d voiles, %d supports, %d filaire, %d grid",
+                     report.dalles_consolidated, report.voiles_simplified,
+                     report.supports_added, report.filaire_added,
+                     report.grid_lines_added)
 
 
 if __name__ == "__main__":
